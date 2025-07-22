@@ -1766,7 +1766,7 @@
         <div class="absolute bottom-0 left-0 w-full h-32 z-1" style="background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.8)); clip-path: polygon(0 50%, 100% 80%, 100% 100%, 0% 100%);">
         </div>
         
-        <nav class="container mx-auto px-4 py-6 flex justify-start items-center absolute top-0 left-0 right-0 z-10">
+        <nav class="container mx-auto px-4 py-6 flex justify-end items-center absolute top-0 left-0 right-0 z-10">
             <div class="flex items-center" dir="ltr">
                 <img src="https://i.postimg.cc/wxDfpvrx/image.png" alt="SELVADA Logo" class="w-16 h-16 md:w-20 md:h-20 rounded-full shadow-lg shadow-selvada-gold/30">
                 
@@ -3551,7 +3551,7 @@
         // Content protection
         document.addEventListener('contextmenu', function(e) {
             e.preventDefault();
-            alert('المحتوى محمي - Content is protected');
+            alert('can take screenshot only - Content is protected');
             return false;
         });
 
@@ -3561,7 +3561,7 @@
                 (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) ||
                 (e.ctrlKey && (e.keyCode === 85 || e.keyCode === 83 || e.keyCode === 65 || e.keyCode === 80))) {
                 e.preventDefault();
-                alert('المحتوى محمي - Content is protected');
+                alert('can take screenshot only - Content is protected');
                 return false;
             }
         });
